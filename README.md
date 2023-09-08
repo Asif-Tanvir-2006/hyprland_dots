@@ -26,7 +26,8 @@ My dotfiles
   - ![image](https://github.com/Asif-Tanvir-2006/hyprland_dots/assets/98411318/23f856fb-c7a0-49e9-af68-d1bd4539353d)
 
 - `mod + D` = Launch rofi
-  - ![image](https://github.com/Asif-Tanvir-2006/hyprland_dots/assets/98411318/49b4e709-33f3-4c69-ab61-a6da3c586cfd)
+  - ![image](https://github.com/Asif-Tanvir-2006/hyprland_dots/assets/98411318/5ef78958-7f54-4ebf-b7e9-ca2c94e90526)
+
 
 - `shift + print` = Save screenshot
 - `print` = Copy screenshot to clipboard
