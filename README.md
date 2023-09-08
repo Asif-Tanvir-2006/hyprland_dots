@@ -3,6 +3,7 @@
 My dotfiles
 
 ## Dependencies
+- swaybg (for setting wallpaper)
 - rofi-lbonn-wayland
 - eww-wayland (available in AUR)
   - Eww is better than waybar in my opinion. It uses fewer system resources and looks better.
