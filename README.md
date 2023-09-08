@@ -33,5 +33,6 @@ My dotfiles
 - `shift + print` = Save screenshot
 - `print` = Copy screenshot to clipboard
 - `mod + N` = Toggle swaync notification pane
+- `mod + O` = Organise your home directory (scans directories and puts files in respective folders, check hypr/scripts/organiser.sh for details)
 
 Go through my config files for detailed information on all the keybinds I use. You can obviously change them as per your needs.
