@@ -21,10 +21,13 @@ My dotfiles
 ## Keybinds
 - `mod + V` = Access your clipboard
   - ![image](https://github.com/Asif-Tanvir-2006/hyprland_dots/assets/98411318/faf79cd4-8ee8-4a40-b3a3-18ad5b99f882)
+
 - `mod + shift + D` = Access folders (I am using thunar, if you use any other file manager, make changes to `~/.config/hypr/scripts/folders_rofi.sh` accordingly)
   - ![image](https://github.com/Asif-Tanvir-2006/hyprland_dots/assets/98411318/23f856fb-c7a0-49e9-af68-d1bd4539353d)
+
 - `mod + D` = Launch rofi
   - ![image](https://github.com/Asif-Tanvir-2006/hyprland_dots/assets/98411318/49b4e709-33f3-4c69-ab61-a6da3c586cfd)
+
 - `shift + print` = Save screenshot
 - `print` = Copy screenshot to clipboard
 - `mod + N` = Toggle swaync notification pane
