@@ -1,11 +1,11 @@
 configuration {
     modi:                           "drun";
-	font:							"Fira Code 13";
+	font:							"FiraCode Nerd Font 13";
     show-icons:                     true;
-    icon-theme:            "Tela";
+    icon-theme:            "Papirus";
 /*    display-drun: 					"";*/
 /*  display-drun: 					"";*/
-    display-drun:                   "";
+    display-drun:                   "";
     drun-display-format:            "{icon} {name}";
 }
 
