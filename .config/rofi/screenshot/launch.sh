@@ -18,7 +18,7 @@ EOF
 run_cmd() {
 	case "$1" in
 		'󰹑')
-			grimblast --notify save screen ~/screenshot.png && ${scriptsDir}/ss_sorter.sh
+			sleep 0.5 && grimblast --notify save screen ~/screenshot.png && ${scriptsDir}/ss_sorter.sh
 
 			;;
 		'')
