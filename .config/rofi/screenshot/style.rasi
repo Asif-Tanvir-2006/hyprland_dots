@@ -94,6 +94,6 @@ element-text {
 }
 
 element selected.normal {
-    background-color:            #FFFFFF;
+    background-color:            #C0CAF5FF;
     text-color:                  var(background);
 }
