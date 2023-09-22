@@ -12,13 +12,15 @@ configuration {
 @theme "colors.rasi"
 
 window {
+    location:                    center; /* Set the location to southwest (bottom left corner) */
+    anchor:                      center; 
     background-color:               @bg;
 	border:							0px;
 	border-color:					@ac;
     border-radius:                  12px;
 	width:							450;
-    location:                       center;
-    /*x-offset:                       18;*/
+    
+    x-offset:                       18;
     y-offset:                       60;
 }
 

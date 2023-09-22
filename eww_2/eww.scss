@@ -1,0 +1,63 @@
+// $bg: rgba(#ffffff,0.1);
+$bg: transparent;
+// $fg: #dddddd;
+$fg: #C0CAF5;
+$shadow: rgba(#000000,0.3);
+// $border_col: rgba(#cccccc,0.18);
+$border_col: transparent;
+$best_so_far: rgba(255,255,255,0.1); 
+
+.bar {
+	background-color: #0c0d11;	
+	// margin-top: 100px;
+	// height: 100px;
+}
+
+.main-container {
+	margin: 8px 8px 0px 8px;
+	margin-bottom: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.workspaces {
+	background-color: $bg;
+	border-radius: 10px;
+	color: $fg;	
+	margin-bottom: 3px;
+	border: 1px solid $border_col;
+	// padding: 5px 18px 3px 18px;
+    font-size: 16px;
+	box-shadow: 2px 2px 2px $shadow;
+	// min-height: 10px;	
+}
+.info_cool{
+    background-color: $bg;
+	border-radius: 10px;
+	color: $fg;	
+	margin-bottom: 3px;
+	border: 1px solid $border_col;
+	// padding: 6px 20px 4px 20px;
+	font-size: 16px;
+	box-shadow: 2px 2px 2px $shadow;
+	// min-height: 10px;	
+}
+
+
+.time_battery {
+	background: $bg;
+	border-radius: 10px;
+	color: $fg;
+	font-size: 16px;
+	// padding: 0px 0px 0px 0px; 
+	margin-bottom: 3px;
+	margin-right: 0px;
+	border: 1px solid $border_col;
+	box-shadow: 2px 2px 2px $shadow;
+	text-shadow: none;
+}
+
+.time_battery:hover {
+    background: rgba(#ffffff,0.15);
+}
+

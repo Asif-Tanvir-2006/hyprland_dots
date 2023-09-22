@@ -6,7 +6,7 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import                          "~/.config/rofi/screenshot/colors.rasi"
+@import                          "~/.config/rofi/handy_stuff_menu/colors.rasi"
 
 /*
 USE_BUTTONS=YES
