@@ -1,13 +1,16 @@
 import os
 import subprocess
 
-# Define the file name
-file_name = "exists.txt"
-#should exist at pc startup and only when gamma is off
+# Define the file name with tilde (~)
+file_name = "~/.config/hypr/scripts/exists.txt"
+
+# Expand the tilde to the actual home directory path
+file_name = os.path.expanduser(file_name)
+
 # Check if the file exists
 if os.path.exists(file_name):
     # Execute gammastep command in the background
-    subprocess.Popen(["gammastep", "-l", "0:0", "-t", "3500:3500", "&"])
+    subprocess.Popen(["gammastep", "-l", "0:0", "-t", "3500:3500"])
     os.system("notify-send 'Info' 'Night light is being activated..'")
     # Delete the file
     os.remove(file_name)
